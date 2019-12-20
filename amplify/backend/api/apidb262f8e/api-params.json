@@ -1,0 +1,37 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "betatest84080bd9",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST"
+                ]
+            }
+        }
+    ],
+    "resourceName": "apidb262f8e",
+    "apiName": "apidb262f8e",
+    "functionArns": [
+        {
+            "lambdaFunction": "betatest84080bd9"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-betatest-dev-121556-authRole",
+        "unAuthRoleName": "amplify-betatest-dev-121556-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "betatest84080bd9",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
